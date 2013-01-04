@@ -1,0 +1,28 @@
+{
+  "name": "hue.js",
+  "version": "0.0.0",
+  "description": "Library for interacting with a Phillips Hue base station",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "dependencies": {
+    "request":"2.12.0"
+  },
+  "devDependencies": {
+    "mocha":"*",
+    "should":"*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com:thatguydan/hue.js.git"
+  },
+  "keywords": [
+    "Phillips",
+    "Hue",
+    "Light"
+  ],
+  "author": "Daniel Friedman",
+  "license": "MIT",
+  "readmeFilename": "README.md"
+}
