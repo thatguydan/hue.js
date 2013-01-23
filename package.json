@@ -7,11 +7,12 @@
     "test": "npm test"
   },
   "dependencies": {
-    "request":"2.12.0"
+    "request": "2.12.0",
+    "async": "~0.1.22"
   },
   "devDependencies": {
-    "mocha":"*",
-    "should":"*"
+    "mocha": "*",
+    "should": "*"
   },
   "repository": {
     "type": "git",
@@ -22,7 +23,12 @@
     "Hue",
     "Light"
   ],
-  "author": "Daniel Friedman",
+  "author": {
+    "name": "Daniel Friedman"
+  },
   "license": "MIT",
-  "readmeFilename": "README.md"
+  "readmeFilename": "README.md",
+  "readme": "ERROR: No README.md file found!",
+  "_id": "hue.js@0.0.0",
+  "_from": "hue.js@latest"
 }

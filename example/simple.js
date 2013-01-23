@@ -9,6 +9,7 @@ var hue = Hue.createClient({
 
 hue.lights(function(lights) {
     Object.keys(lights).forEach(function(l) {
-        hue.rgb(l,20,150,66);
+        hue.on()
+        // hue.rgb(l,20,150,66);
     });
 });
