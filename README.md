@@ -43,3 +43,23 @@ client.lights(function(err,lights) {
   }
 });
 ```
+
+
+## Client API
+Returned from createClient(opts);
+`opts` being `stationIp` ip address and an `appName`.
+
+### client.register(opts,cb)
+Attempt to register your app with the base station. `opts` has 2 properties, `interval` - the amount of time to wait in milliseconds before attempting to register again, and `attempts` the number of attempts to try before giving up. This will error out if registration was not successful.
+
+### client.lights(cb)
+Fetch the list of the lights associated with this base station
+
+### client.light(light,cb)
+Fetch the state data about 1 light, `light` being its index received from client.lights(...)
+
+### client.on(light,cb) client.off(light,cb)
+Turn on/off that light, `light` being the index received from the client.lights(...)
+
+### client.rgb(light,R,G,B,cb)
+Change the RGB colour of the light. Note 0,0,0, is not `off`.
