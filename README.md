@@ -48,10 +48,14 @@ client.lights(function(err,lights) {
 });
 ```
 
+## Hue API
+### Hue.createClient(opts)
+`opts` being `stationIp` ip address and an `appName`. Returns a hue client.
+
+### Hue.Discover(cb)
+Discovers hue bridges on your local network.
 
 ## Client API
-Returned from createClient(opts);
-`opts` being `stationIp` ip address and an `appName`.
 
 ### client.register(opts,cb)
 Attempt to register your app with the base station. `opts` has 2 properties, `interval` - the amount of time to wait in milliseconds before attempting to register again, and `attempts` the number of attempts to try before giving up. This will error out if registration was not successful.
