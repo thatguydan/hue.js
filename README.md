@@ -50,7 +50,7 @@ client.lights(function(err,lights) {
 
 ## Hue API
 ### Hue.createClient(opts)
-`opts` being `stationIp` ip address and an `appName`. Returns a hue client.
+`opts` being `stationIp` ip address and an `appName`. Returns a hue `client`.
 
 ### Hue.Discover(cb)
 Discovers hue bridges on your local network.
