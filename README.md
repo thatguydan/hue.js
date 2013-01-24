@@ -18,7 +18,6 @@ Hue.discover(function(stations) {
 
   console.log(stations);
 });
-
 ```
 
 ## Register your app
