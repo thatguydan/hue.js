@@ -1,6 +1,11 @@
 Node Hue Module
 ---
 
+## To install
+```
+npm install hue.js
+```
+
 ## To use
 ```javascript
 var Hue = require('hue.js');
