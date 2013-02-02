@@ -1,5 +1,6 @@
 Node Hue Module
 ---
+This library aims to provide a simple interface to a Philips Hue bridge (http://www.meethue.com/).
 
 ## To install
 ```
