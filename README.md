@@ -27,7 +27,7 @@ Hue.discover(function(stations) {
 ```javascript
 
 var client = Hue.createClient({
-  stationIp:station, // Retrieved from the previous step
+  stationIp:station, // 'x.x.x.x', retrieved from the previous step
   appName:appName // Any alpha numeric name for your app
 });
 
