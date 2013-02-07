@@ -1,6 +1,6 @@
 var Hue = require('../index.js');
 
-var appName = "My App";
+var appName = "My App1";
 var util = require('util')
 
 Hue.discover(function(stations) {
@@ -24,8 +24,11 @@ function fetchLights(station) {
       client.register(function(err) {
 
         if (err) {
+          console.error(err);
           // Could not register
         } else {
+          console.log("Hue Base Station Paired")
+          fetchLights(station);
           // Registered, carry on
         }
       });
