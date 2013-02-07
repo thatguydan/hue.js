@@ -1,5 +1,8 @@
 Node Hue Module
 ---
+This library aims to provide a simple interface to a Philips Hue bridge (http://www.meethue.com/).
+
+A Hue bridge requires your 'app' to register with the bridge. This process involves a user pressing the link button on the hue, and your app making a request to its API to complete the process.
 
 ## To install
 ```
@@ -24,7 +27,7 @@ Hue.discover(function(stations) {
 ```javascript
 
 var client = Hue.createClient({
-  stationIp:station, // Retrieved from the previous step
+  stationIp:station, // 'x.x.x.x', retrieved from the previous step
   appName:appName // Any alpha numeric name for your app
 });
 
