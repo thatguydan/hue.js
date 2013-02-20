@@ -63,8 +63,8 @@ Discovers hue bridges on your local network.
 ### client.register(opts,cb)
 Attempt to register your app with the base station. `opts` has 2 properties, `interval` - the amount of time to wait in milliseconds before attempting to register again, and `attempts` the number of attempts to try before giving up. This will error out if registration was not successful.
 
-### client.config(opts,cb)
-Update the configuration of this base station. [See here](http://burgestrand.github.com/hue-api/api/config/#updating-bridge-configuration) for a station's properties.
+### client.config([opts],cb)
+Fetch or if `opts` is specified update, the configuration of this base station. [See here](http://burgestrand.github.com/hue-api/api/config/#updating-bridge-configuration) for a station's properties.
 
 ### client.lights(cb)
 Fetch the list of the lights associated with this base station
