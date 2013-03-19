@@ -63,6 +63,9 @@ Discovers hue bridges on your local network.
 ### client.register(opts,cb)
 Attempt to register your app with the base station. `opts` has 2 properties, `interval` - the amount of time to wait in milliseconds before attempting to register again, and `attempts` the number of attempts to try before giving up. This will error out if registration was not successful.
 
+### client.deregister(cb)
+Degregister (unpair) your app. All future calls will be unauthorised by the base station until your app is reregistered.
+
 ### client.config([opts],cb)
 Fetch or if `opts` is specified update, the configuration of this base station. [See here](http://burgestrand.github.com/hue-api/api/config/#updating-bridge-configuration) for a station's properties.
 
