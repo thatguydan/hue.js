@@ -75,6 +75,9 @@ Fetch the list of the lights associated with this base station
 ### client.light(light,cb)
 Fetch the state data about 1 light, `light` being its index received from client.lights(...)
 
+### client.state(light,state,cb)
+Update the state of a light, `light` being its index received from client.lights(...) and `state` being an object with properties [defined here](http://burgestrand.github.com/hue-api/api/lights/#changing-light-color-and-turning-them-onoff)
+
 ### client.on(light,cb) client.off(light,cb)
 Turn on/off that light, `light` being the index received from the client.lights(...)
 
