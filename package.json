@@ -1,6 +1,6 @@
 {
   "name": "hue.js",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "description": "Library for interacting with a Phillips Hue base station",
   "main": "index.js",
   "scripts": {
