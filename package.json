@@ -1,6 +1,6 @@
 {
   "name": "hue.js",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "description": "Library for interacting with a Phillips Hue base station",
   "main": "index.js",
   "scripts": {
@@ -19,7 +19,7 @@
     "url": "github.com:thatguydan/hue.js.git"
   },
   "keywords": [
-    "Phillips",
+    "Philips",
     "Hue",
     "Light"
   ],
@@ -27,8 +27,4 @@
     "name": "Daniel Friedman"
   },
   "license": "MIT",
-  "readmeFilename": "README.md",
-  "readme": "ERROR: No README.md file found!",
-  "_id": "hue.js@0.0.0",
-  "_from": "hue.js@latest"
 }
