@@ -90,3 +90,6 @@ Turn on/off that light, `light` being the index received from the client.lights(
 
 ### client.rgb(light,R,G,B,cb)
 Change the RGB colour of the light. Note 0,0,0, is not `off`.
+
+### client.rename(light,name,cb)
+Change the light's name to the string `name`, where `light` is the index received from `client.clients()`.
