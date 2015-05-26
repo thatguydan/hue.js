@@ -55,8 +55,12 @@ client.lights(function(err,lights) {
 ### Hue.createClient(opts)
 `opts` being `stationIp` ip address and an `appName`. Returns a hue `client`.
 
-### Hue.Discover(cb)
+### Hue.Discover([opts], cb)
 Discovers hue bridges on your local network.
+
+`opts` is optional and may be omitted
+
+- `opts.timeout`: timeout to use for the UDP broadcast packet, defaults to 3000ms
 
 ## Client API
 
