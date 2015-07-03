@@ -1,6 +1,6 @@
 {
   "name": "hue.js",
-  "version": "0.2.13",
+  "version": "0.2.14",
   "description": "Library for interacting with a Phillips Hue base station",
   "main": "index.js",
   "scripts": {
@@ -26,5 +26,8 @@
   "author": {
     "name": "Daniel Friedman"
   },
+  "contributors": [
+    {"name": "Valentin Alexeev", "email": "valentin.alekseev@gmail.com"}
+  ],
   "license": "MIT"
 }

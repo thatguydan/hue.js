@@ -93,3 +93,6 @@ Change the RGB colour of the light. Note 0,0,0, is not `off`.
 
 ### client.rename(light,name,cb)
 Change the light's name to the string `name`, where `light` is the index received from `client.clients()`.
+
+### client.brightness(light, birghtnessValue,cb)
+Control the brightness of a single light, where `light` is the index received from `client.clients()` and `birghtnessValue` is in range 0 - 255. At value 0 the light will switch off.
